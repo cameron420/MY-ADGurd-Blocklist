@@ -3,7 +3,13 @@
 ! Used with AdGuard Home + NextDNS + Technitium
 ! Maintained by Cameron420
 
+! ===== TurtleCute Test Scripts =====
+! Blocks local adblock test scripts
+||adblock.turtlecute.org/ads.js
+||adblock.turtlecute.org/pagead.js
+
 ! ===== Google Analytics =====
+! Google tracking + analytics
 ||google-analytics.com^
 ||ssl.google-analytics.com^
 ||analytics.google.com^
@@ -11,26 +17,27 @@
 ||googletagmanager.com^
 
 ! ===== DoubleClick =====
+! Google ad network
 ||doubleclick.net^
 ||g.doubleclick.net^
 ||stats.g.doubleclick.net^
 ||mediavisor.doubleclick.net^
 
 ! ===== Media.net =====
+! Ad network/tracking
 ||media.net^
 ||static.media.net^
 
 ! ===== AdColony =====
+! Mobile ads/tracking SDK
 ||adcolony.com^
 ||ads30.adcolony.com^
 ||adc3-launch.adcolony.com^
 ||events3alt.adcolony.com^
 ||wd.adcolony.com^
-||*adc3-launch.adcolony.com^
-||*events3alt.adcolony.com^
-||*wd.adcolony.com^
 
 ! ===== LuckyOrange =====
+! Session replay/heatmaps
 ||luckyorange.com^
 ||luckyorange.net^
 ||settings.luckyorange.net^
@@ -42,6 +49,7 @@
 ||api.luckyorange.com^
 
 ! ===== Mouseflow =====
+! Session replay/tracking
 ||mouseflow.com^
 ||tools.mouseflow.com^
 ||api.mouseflow.com^
@@ -51,6 +59,7 @@
 ||cdn-test.mouseflow.com^
 
 ! ===== Hotjar =====
+! Analytics/session recording
 ||hotjar.com^
 ||hotjar.io^
 ||adm.hotjar.com^
@@ -61,34 +70,42 @@
 ||identify.hotjar.com^
 
 ! ===== Freshmarketer =====
+! Marketing analytics/tracking
 ||freshmarketer.com^
 ||fwtracks.freshmarketer.com^
 ||claritybt.freshmarketer.com^
 
 ! ===== Bugsnag =====
+! Crash/error telemetry
 ||bugsnag.com^
 ||notify.bugsnag.com^
 
 ! ===== Sentry =====
+! Error logging/telemetry
 ||sentry.io^
 ||browser.sentry-cdn.com^
 ||app.getsentry.com^
 
 ! ===== WordPress Stats =====
+! WP analytics/tracking
 ||wp.com^
 ||stats.wp.com^
 
 ! ===== Facebook =====
+! Meta tracking/social
 ||facebook.com^
 ||facebook.net^
 
 ! ===== TikTok =====
+! TikTok analytics/tracking
 ||tiktok.com^
 ||analytics.tiktok.com^
 
 ! ===== Unity Ads =====
+! Unity mobile ad SDK
 ||unityads.unity3d.com^
 
 ! ===== Misc =====
+! Misc telemetry/search
 ||yahoo.com^
 ||yandex.ru^
