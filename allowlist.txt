@@ -1,3 +1,7 @@
+! =========================================================
+! SOCIAL / APPS / GAMING AUTH & API ALLOWLIST
+! =========================================================
+
 ! ===== Facebook / Meta =====
 @@||graph.facebook.com^
 @@||an.facebook.com^
@@ -32,15 +36,31 @@
 @@||trk.pinterest.com^
 @@||log.pinterest.com^
 
-! ===== Microsoft / Phone Link =====
+! =========================================================
+! MICROSOFT / WINDOWS / PHONE LINK / XBOX
+! =========================================================
+
 @@||mobile.events.data.microsoft.com^
 @@||login.live.com^
 @@||device.login.microsoftonline.com^
 @@||login.microsoftonline.com^
 @@||teams.live.com^
 @@||wns.windows.com^
+@@||xboxlive.com^
+@@||xboxservices.com^
+@@||xbox.com^
+@@||live.com^
+@@||microsoft.com^
+@@||microsoftonline.com^
+@@||office.com^
+@@||office.net^
+@@||windows.net^
+@@||azureedge.net^
 
-! ===== Google / Android Services =====
+! =========================================================
+! GOOGLE / ANDROID / PLAY SERVICES
+! =========================================================
+
 @@||accounts.google.com^
 @@||play.google.com^
 @@||www.googleapis.com^
@@ -52,3 +72,45 @@
 @@||googleapis.com^
 @@||googleusercontent.com^
 @@||clientservices.googleapis.com^
+
+! =========================================================
+! SONY / PLAYSTATION / PSN
+! =========================================================
+
+@@||playstation.com^
+@@||sony.com^
+@@||sonyentertainmentnetwork.com^
+@@||api.playstation.com^
+@@||auth.api.sonyentertainmentnetwork.com^
+@@||account.sonyentertainmentnetwork.com^
+@@||psnprofiles.com^
+@@||scea.com^
+@@||akamaihd.net^
+@@||edgekey.net^
+@@||edgesuite.net^
+
+! =========================================================
+! DISCORD
+! =========================================================
+
+@@||discord.com^
+@@||discord.gg^
+@@||discord.media^
+@@||discordapp.com^
+@@||discordapp.net^
+
+! =========================================================
+! STEAM
+! =========================================================
+
+@@||steamcommunity.com^
+@@||steampowered.com^
+@@||steamstatic.com^
+
+! =========================================================
+! NINTENDO
+! =========================================================
+
+@@||nintendo.net^
+@@||nintendo.com^
+@@||accounts.nintendo.com^
