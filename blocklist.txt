@@ -1,18 +1,33 @@
+! My personal DNS telemetry/ad/tracker blocklist
+! Format: AdGuard/uBlock compatible
+! Used with AdGuard Home + NextDNS + Technitium
+! Maintained by Cameron420
+
+! ===== Google Analytics =====
 ||google-analytics.com^
 ||ssl.google-analytics.com^
 ||analytics.google.com^
 ||click.googleanalytics.com^
 ||googletagmanager.com^
+
+! ===== DoubleClick =====
 ||doubleclick.net^
 ||g.doubleclick.net^
 ||stats.g.doubleclick.net^
 ||mediavisor.doubleclick.net^
+
+! ===== Media.net =====
 ||media.net^
 ||static.media.net^
+
+! ===== AdColony =====
 ||adcolony.com^
-||events3alt.adcolony.com^
-||adc3-launch.adcolony.com^
 ||ads30.adcolony.com^
+||adc3-launch.adcolony.com^
+||events3alt.adcolony.com^
+||wd.adcolony.com^
+
+! ===== LuckyOrange =====
 ||luckyorange.com^
 ||luckyorange.net^
 ||settings.luckyorange.net^
@@ -22,15 +37,18 @@
 ||cdn.luckyorange.com^
 ||realtime.luckyorange.com^
 ||api.luckyorange.com^
+
+! ===== Mouseflow =====
 ||mouseflow.com^
 ||tools.mouseflow.com^
 ||api.mouseflow.com^
 ||cdn.mouseflow.com^
-||hotjar.com^
-||wd.adcolony.com^
 ||o2.mouseflow.com^
 ||gtm.mouseflow.com^
 ||cdn-test.mouseflow.com^
+
+! ===== Hotjar =====
+||hotjar.com^
 ||hotjar.io^
 ||adm.hotjar.com^
 ||script.hotjar.com^
@@ -38,20 +56,36 @@
 ||surveys.hotjar.com^
 ||insights.hotjar.com^
 ||identify.hotjar.com^
+
+! ===== Freshmarketer =====
 ||freshmarketer.com^
 ||fwtracks.freshmarketer.com^
 ||claritybt.freshmarketer.com^
+
+! ===== Bugsnag =====
 ||bugsnag.com^
 ||notify.bugsnag.com^
+
+! ===== Sentry =====
 ||sentry.io^
 ||browser.sentry-cdn.com^
 ||app.getsentry.com^
+
+! ===== WordPress Stats =====
 ||wp.com^
 ||stats.wp.com^
+
+! ===== Facebook =====
 ||facebook.com^
 ||facebook.net^
+
+! ===== TikTok =====
 ||tiktok.com^
 ||analytics.tiktok.com^
+
+! ===== Unity Ads =====
 ||unityads.unity3d.com^
+
+! ===== Misc =====
 ||yahoo.com^
 ||yandex.ru^
