@@ -31,3 +31,24 @@
 @@||ads.pinterest.com^
 @@||trk.pinterest.com^
 @@||log.pinterest.com^
+
+! ===== Microsoft / Phone Link =====
+@@||mobile.events.data.microsoft.com^
+@@||login.live.com^
+@@||device.login.microsoftonline.com^
+@@||login.microsoftonline.com^
+@@||teams.live.com^
+@@||wns.windows.com^
+
+! ===== Google / Android Services =====
+@@||accounts.google.com^
+@@||play.google.com^
+@@||www.googleapis.com^
+@@||android.clients.google.com^
+@@||clients3.google.com^
+@@||clients4.google.com^
+@@||mtalk.google.com^
+@@||gvt1.com^
+@@||googleapis.com^
+@@||googleusercontent.com^
+@@||clientservices.googleapis.com^
