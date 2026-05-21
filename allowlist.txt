@@ -40,10 +40,19 @@
 ! MICROSOFT / WINDOWS / PHONE LINK / XBOX
 ! =========================================================
 
+@@||aka.ms^
+@@||graph.microsoft.com^
 @@||mobile.events.data.microsoft.com^
+@@||device.mobile.microsoft.com^
+@@||notify.windows.com^
+@@||push.notify.windows.com^
+@@||api.notify.windows.com^
 @@||login.live.com^
-@@||device.login.microsoftonline.com^
+@@||login.live-int.com^
+@@||login.microsoft.com^
 @@||login.microsoftonline.com^
+@@||device.login.microsoftonline.com^
+@@||token.microsoft.com^
 @@||teams.live.com^
 @@||wns.windows.com^
 @@||xboxlive.com^
@@ -56,6 +65,10 @@
 @@||office.net^
 @@||windows.net^
 @@||azureedge.net^
+@@||msftconnecttest.com^
+@@||msauth.net^
+@@||msauthimages.net^
+@@||microsoftapp.net^
 
 ! =========================================================
 ! GOOGLE / ANDROID / PLAY SERVICES
