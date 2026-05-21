@@ -1,1 +1,20 @@
+youtube.com##.ytp-ad-module
+youtube.com##ytd-display-ad-renderer
+youtube.com##ytd-promoted-video-renderer
 
+||google-analytics.com^
+||doubleclick.net^
+||googletagmanager.com^
+||facebook.com^
+||facebook.net^
+||tiktok.com^
+||hotjar.com^
+||mouseflow.com^
+||luckyorange.com^
+||freshmarketer.com^
+||sentry.io^
+||bugsnag.com^
+
+##iframe[src*="facebook.com"]
+##div[class*="facebook"]
+##div[id*="facebook"]
