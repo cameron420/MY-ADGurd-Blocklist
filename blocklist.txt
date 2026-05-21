@@ -109,3 +109,14 @@
 ! Misc telemetry/search
 ||yahoo.com^
 ||yandex.ru^
+||googlesyndication.com^
+||googleadservices.com^
+||doubleclick.net^
+||taboola.com^
+||outbrain.com^
+||zedo.com^
+||adsystem.com^
+||adservice.google.com^
+||onesignal.com^
+||pushcrew.com^
+||pushnotificationx.com^
