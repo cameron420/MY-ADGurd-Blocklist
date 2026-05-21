@@ -1,29 +1,33 @@
-! ===== Facebook / Meta Trackers =====
-||graph.facebook.com^
-||an.facebook.com^
-||pixel.facebook.com^
-||connect.facebook.net^
-||analytics.facebook.com^
+! ===== Facebook / Meta =====
+@@||graph.facebook.com^
+@@||an.facebook.com^
+@@||pixel.facebook.com^
+@@||connect.facebook.net^
+@@||analytics.facebook.com^
+@@||gateway.facebook.com^
+@@||facebook.com^
+@@||fbcdn.net^
+@@||developers.facebook.com^
 
-! ===== TikTok Trackers =====
-||analytics.tiktok.com^
-||ads-api.tiktok.com^
-||business-api.tiktok.com^
-||log.byteoversea.com^
+! ===== TikTok =====
+@@||analytics.tiktok.com^
+@@||ads-api.tiktok.com^
+@@||business-api.tiktok.com^
+@@||log.byteoversea.com^
 
-! ===== Twitter / X Trackers =====
-||static.ads-twitter.com^
-||ads-api.twitter.com^
+! ===== Twitter / X =====
+@@||static.ads-twitter.com^
+@@||ads-api.twitter.com^
 
-! ===== Reddit Trackers =====
-||events.reddit.com^
-||events.redditmedia.com^
+! ===== Reddit =====
+@@||events.reddit.com^
+@@||events.redditmedia.com^
 
-! ===== LinkedIn Trackers =====
-||ads.linkedin.com^
-||analytics.pointdrive.linkedin.com^
+! ===== LinkedIn =====
+@@||ads.linkedin.com^
+@@||analytics.pointdrive.linkedin.com^
 
-! ===== Pinterest Trackers =====
-||ads.pinterest.com^
-||trk.pinterest.com^
-||log.pinterest.com^
+! ===== Pinterest =====
+@@||ads.pinterest.com^
+@@||trk.pinterest.com^
+@@||log.pinterest.com^
