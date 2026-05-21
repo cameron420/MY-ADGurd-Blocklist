@@ -1,7 +1,9 @@
+! ===== YouTube Ads =====
 youtube.com##.ytp-ad-module
 youtube.com##ytd-display-ad-renderer
 youtube.com##ytd-promoted-video-renderer
 
+! ===== Trackers / Analytics =====
 ||google-analytics.com^
 ||doubleclick.net^
 ||googletagmanager.com^
@@ -14,7 +16,3 @@ youtube.com##ytd-promoted-video-renderer
 ||freshmarketer.com^
 ||sentry.io^
 ||bugsnag.com^
-
-##iframe[src*="facebook.com"]
-##div[class*="facebook"]
-##div[id*="facebook"]
