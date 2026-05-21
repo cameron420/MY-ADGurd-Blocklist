@@ -26,6 +26,9 @@
 ||adc3-launch.adcolony.com^
 ||events3alt.adcolony.com^
 ||wd.adcolony.com^
+||*adc3-launch.adcolony.com^
+||*events3alt.adcolony.com^
+||*wd.adcolony.com^
 
 ! ===== LuckyOrange =====
 ||luckyorange.com^
