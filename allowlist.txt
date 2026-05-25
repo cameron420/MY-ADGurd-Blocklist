@@ -127,3 +127,15 @@
 @@||nintendo.net^
 @@||nintendo.com^
 @@||accounts.nintendo.com^
+
+! =========================================================
+! NORDVPN / SMARTDNS AUTH & API
+! =========================================================
+
+@@||nordvpn.com^
+@@||nordcdn.com^
+@@||nordaccount.com^
+@@||web-api.nordvpn.com^
+@@||d.nordvpn.com^
+@@||cm.nordvpn.com^
+@@||debug.nordvpn.com^
