@@ -1,4 +1,48 @@
 ! =========================================================
+! TOONTOWN REWRITTEN REWARD ADS ONLY
+! =========================================================
+
+@@||toonblast.com^
+@@||toontownrewritten.com^
+
+! Unity Ads
+@@||unityads.unity3d.com^
+@@||config.unityads.unity3d.com^
+@@||auction.unityads.unity3d.com^
+
+! AppLovin
+@@||applovin.com^
+@@||applovinmax.com^
+@@||d.applovin.com^
+
+! IronSource
+@@||supersonicads.com^
+@@||ironsrc.mobi^
+@@||is.com^
+
+! AdMob / Google Reward Video
+@@||googleads.g.doubleclick.net^
+@@||adservice.google.com^
+@@||pagead2.googlesyndication.com^
+
+! Vungle
+@@||vungle.com^
+@@||ads.vungle.com^
+
+! Chartboost
+@@||chartboost.com^
+
+! Mintegral
+@@||mintegral.com^
+
+! Liftoff
+@@||liftoff.io^
+
+! AdColony
+@@||adcolony.com^
+@@||adc3-launch.adcolony.com^
+
+! =========================================================
 ! SOCIAL / APPS / GAMING AUTH & API ALLOWLIST
 ! =========================================================
 
