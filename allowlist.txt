@@ -1,104 +1,20 @@
 ! =========================================================
-! TOONTOWN REWRITTEN REWARD ADS ONLY
+! AdGuard Home DNS Allowlist
+! Purpose: Allow required authentication, platform, gaming,
+!          messaging, and VPN service domains while avoiding
+!          global advertising-network exceptions.
 ! =========================================================
 
-@@||toonblast.com^
-@@||toontownrewritten.com^
-
-! Unity Ads
-@@||unityads.unity3d.com^
-@@||config.unityads.unity3d.com^
-@@||auction.unityads.unity3d.com^
-
-! AppLovin
-@@||applovin.com^
-@@||applovinmax.com^
-@@||d.applovin.com^
-
-! IronSource
-@@||supersonicads.com^
-@@||ironsrc.mobi^
-@@||is.com^
-
-! AdMob / Google Reward Video
-@@||googleads.g.doubleclick.net^
-@@||adservice.google.com^
-@@||pagead2.googlesyndication.com^
-
-! Vungle
-@@||vungle.com^
-@@||ads.vungle.com^
-
-! Chartboost
-@@||chartboost.com^
-
-! Mintegral
-@@||mintegral.com^
-
-! Liftoff
-@@||liftoff.io^
-
-! AdColony
-@@||adcolony.com^
-@@||adc3-launch.adcolony.com^
-
-! =========================================================
-! SOCIAL / APPS / GAMING AUTH & API ALLOWLIST
-! =========================================================
-
-! ===== Facebook / Meta =====
-@@||graph.facebook.com^
-@@||an.facebook.com^
-@@||pixel.facebook.com^
-@@||connect.facebook.net^
-@@||analytics.facebook.com^
-@@||gateway.facebook.com^
-@@||facebook.com^
-@@||fbcdn.net^
-@@||developers.facebook.com^
-
-! ===== TikTok =====
-@@||analytics.tiktok.com^
-@@||ads-api.tiktok.com^
-@@||business-api.tiktok.com^
-@@||log.byteoversea.com^
-
-! ===== Twitter / X =====
-@@||static.ads-twitter.com^
-@@||ads-api.twitter.com^
-
-! ===== Reddit =====
-@@||events.reddit.com^
-@@||events.redditmedia.com^
-
-! ===== LinkedIn =====
-@@||ads.linkedin.com^
-@@||analytics.pointdrive.linkedin.com^
-
-! ===== Pinterest =====
-@@||ads.pinterest.com^
-@@||trk.pinterest.com^
-@@||log.pinterest.com^
-
-! =========================================================
-! MICROSOFT / WINDOWS / PHONE LINK / XBOX
-! =========================================================
-
+! ---------------------------------------------------------
+! Microsoft / Windows / Xbox
+! ---------------------------------------------------------
 @@||aka.ms^
 @@||graph.microsoft.com^
-@@||mobile.events.data.microsoft.com^
-@@||device.mobile.microsoft.com^
-@@||notify.windows.com^
-@@||push.notify.windows.com^
-@@||api.notify.windows.com^
 @@||login.live.com^
-@@||login.live-int.com^
 @@||login.microsoft.com^
 @@||login.microsoftonline.com^
 @@||device.login.microsoftonline.com^
 @@||token.microsoft.com^
-@@||teams.live.com^
-@@||wns.windows.com^
 @@||xboxlive.com^
 @@||xboxservices.com^
 @@||xbox.com^
@@ -113,11 +29,14 @@
 @@||msauth.net^
 @@||msauthimages.net^
 @@||microsoftapp.net^
+@@||notify.windows.com^
+@@||push.notify.windows.com^
+@@||api.notify.windows.com^
+@@||wns.windows.com^
 
-! =========================================================
-! GOOGLE / ANDROID / PLAY SERVICES
-! =========================================================
-
+! ---------------------------------------------------------
+! Google / Android / Play Services
+! ---------------------------------------------------------
 @@||accounts.google.com^
 @@||play.google.com^
 @@||www.googleapis.com^
@@ -130,52 +49,46 @@
 @@||googleusercontent.com^
 @@||clientservices.googleapis.com^
 
-! =========================================================
-! SONY / PLAYSTATION / PSN
-! =========================================================
-
+! ---------------------------------------------------------
+! Sony / PlayStation Network
+! ---------------------------------------------------------
 @@||playstation.com^
 @@||sony.com^
 @@||sonyentertainmentnetwork.com^
 @@||api.playstation.com^
 @@||auth.api.sonyentertainmentnetwork.com^
 @@||account.sonyentertainmentnetwork.com^
-@@||psnprofiles.com^
 @@||scea.com^
 @@||akamaihd.net^
 @@||edgekey.net^
 @@||edgesuite.net^
 
-! =========================================================
-! DISCORD
-! =========================================================
-
+! ---------------------------------------------------------
+! Discord
+! ---------------------------------------------------------
 @@||discord.com^
 @@||discord.gg^
 @@||discord.media^
 @@||discordapp.com^
 @@||discordapp.net^
 
-! =========================================================
-! STEAM
-! =========================================================
-
+! ---------------------------------------------------------
+! Steam
+! ---------------------------------------------------------
 @@||steamcommunity.com^
 @@||steampowered.com^
 @@||steamstatic.com^
 
-! =========================================================
-! NINTENDO
-! =========================================================
-
+! ---------------------------------------------------------
+! Nintendo
+! ---------------------------------------------------------
 @@||nintendo.net^
 @@||nintendo.com^
 @@||accounts.nintendo.com^
 
-! =========================================================
-! NORDVPN / SMARTDNS AUTH & API
-! =========================================================
-
+! ---------------------------------------------------------
+! NordVPN / SmartDNS
+! ---------------------------------------------------------
 @@||nordvpn.com^
 @@||nordcdn.com^
 @@||nordaccount.com^
@@ -183,3 +96,19 @@
 @@||d.nordvpn.com^
 @@||cm.nordvpn.com^
 @@||debug.nordvpn.com^
+
+! ---------------------------------------------------------
+! Facebook / Meta Core Services
+! Note: Authentication and platform domains only.
+! ---------------------------------------------------------
+@@||graph.facebook.com^
+@@||connect.facebook.net^
+@@||facebook.com^
+@@||fbcdn.net^
+
+! ---------------------------------------------------------
+! Toontown Rewritten
+! Note: Game domain only. Advertising networks are intentionally
+!       excluded to prevent global ad allowlisting.
+! ---------------------------------------------------------
+@@||toontownrewritten.com^
