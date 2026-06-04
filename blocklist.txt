@@ -1,15 +1,13 @@
 ! ============================================================
 ! Cameron Personal DNS Telemetry / Ads / Tracker Blocklist
 ! Format: AdGuard Home / uBlock compatible
-! Safer optimized version
+! Safe optimized version
 ! Goal: block tracking/ads without breaking mail, login, or apps
 ! ============================================================
-
 
 ! ===== TurtleCute Test Scripts =====
 ||adblock.turtlecute.org/ads.js
 ||adblock.turtlecute.org/pagead.js
-
 
 ! ===== Google Analytics / Tag Manager =====
 ||google-analytics.com^
@@ -17,29 +15,26 @@
 ||analytics.google.com^
 ||click.googleanalytics.com^
 ||googletagmanager.com^
-||www.googletagmanager.com^
+||[www.googletagmanager.com^](http://www.googletagmanager.com^)
 ||tagmanager.google.com^
-
 
 ! ===== Google Ads / DoubleClick =====
 ||doubleclick.net^
 ||g.doubleclick.net^
 ||stats.g.doubleclick.net^
 ||ad.doubleclick.net^
+||pagead.l.doubleclick.net^
 ||googleadservices.com^
-||www.googleadservices.com^
+||[www.googleadservices.com^](http://www.googleadservices.com^)
 ||googlesyndication.com^
 ||pagead2.googlesyndication.com^
 ||tpc.googlesyndication.com^
 ||adservice.google.com^
-||pagead.l.doubleclick.net^
-
 
 ! ===== Media.net Ads =====
 ||media.net^
 ||static.media.net^
 ||contextual.media.net^
-
 
 ! ===== AdColony =====
 ||adcolony.com^
@@ -48,13 +43,11 @@
 ||events3alt.adcolony.com^
 ||wd.adcolony.com^
 
-
 ! ===== Unity Ads =====
 ||unityads.unity3d.com^
 ||auction.unityads.unity3d.com^
 ||config.unityads.unity3d.com^
 ||webview.unityads.unity3d.com^
-
 
 ! ===== Taboola / Outbrain / Zedo =====
 ||taboola.com^
@@ -64,7 +57,6 @@
 ||widgets.outbrain.com^
 ||amplify.outbrain.com^
 ||zedo.com^
-
 
 ! ===== Session Replay / Heatmaps =====
 ||luckyorange.com^
@@ -93,14 +85,12 @@
 ||identify.hotjar.com^
 ||static.hotjar.com^
 
-
 ! ===== Microsoft Clarity / Freshmarketer =====
 ||clarity.ms^
-||www.clarity.ms^
+||[www.clarity.ms^](http://www.clarity.ms^)
 ||freshmarketer.com^
 ||fwtracks.freshmarketer.com^
 ||claritybt.freshmarketer.com^
-
 
 ! ===== Crash / Error Telemetry =====
 ||bugsnag.com^
@@ -110,23 +100,20 @@
 ||sentry.io^
 ||browser.sentry-cdn.com^
 ||app.getsentry.com^
-||o*.ingest.sentry.io^
-
+||ingest.sentry.io^
 
 ! ===== WordPress Stats Only =====
 ||stats.wp.com^
 ||pixel.wp.com^
 
-
 ! ===== Meta / Facebook Tracking Only =====
-||connect.facebook.net^
-||graph.facebook.com^
+! Do NOT block facebook.com globally
 ||pixel.facebook.com^
 ||analytics.facebook.com^
 ||ads.facebook.com^
 
-
 ! ===== TikTok Tracking Only =====
+! Do NOT block tiktok.com globally
 ||analytics.tiktok.com^
 ||business-api.tiktok.com^
 ||ads.tiktok.com^
@@ -134,9 +121,8 @@
 ||mon.tiktokv.com^
 ||mcs-va.tiktokv.com^
 
-
 ! ===== Yahoo Tracking / Ads Only =====
-! Do NOT block yahoo.com globally or mail can break
+! Do NOT block yahoo.com globally or Yahoo/Apple Mail can break
 ||ads.yahoo.com^
 ||analytics.yahoo.com^
 ||beap.gemini.yahoo.com^
@@ -144,7 +130,6 @@
 ||sp.analytics.yahoo.com^
 ||udc.yahoo.com^
 ||fc.yahoo.com^
-
 
 ! ===== Yandex Tracking / Ads Only =====
 ! Do NOT block all yandex.ru unless you want to kill Yandex services
@@ -154,7 +139,6 @@
 ||adsdk.yandex.ru^
 ||yandexadexchange.net^
 
-
 ! ===== Push Notification Trackers =====
 ||onesignal.com^
 ||cdn.onesignal.com^
@@ -162,10 +146,9 @@
 ||pushcrew.com^
 ||pushnotificationx.com^
 
-
-! ===== Generic Ad Systems =====
+! ===== Generic Known Ad System =====
 ||adsystem.com^
-||adserver.*^
-||adservice.*^
-||tracking.*^
-||tracker.*^
+
+! ============================================================
+! End of Blocklist
+! ============================================================
