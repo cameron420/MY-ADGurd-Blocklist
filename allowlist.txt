@@ -5,7 +5,6 @@
 !          without globally allowing ad networks.
 ! =========================================================
 
-
 ! ---------------------------------------------------------
 ! Microsoft / Windows / Xbox Core
 ! ---------------------------------------------------------
@@ -28,7 +27,6 @@
 @@||msftconnecttest.com^
 @@||msftncsi.com^
 
-
 ! ---------------------------------------------------------
 ! Windows Push / Notifications
 ! ---------------------------------------------------------
@@ -36,7 +34,6 @@
 @@||push.notify.windows.com^
 @@||api.notify.windows.com^
 @@||wns.windows.com^
-
 
 ! ---------------------------------------------------------
 ! Xbox
@@ -48,7 +45,6 @@
 @@||xsts.auth.xboxlive.com^
 @@||title.auth.xboxlive.com^
 @@||xboxexperiencesprod.experimentation.xboxlive.com^
-
 
 ! ---------------------------------------------------------
 ! Google / Android / Play Services Core
@@ -64,11 +60,10 @@
 @@||gvt1.com^
 @@||gvt2.com^
 @@||googleapis.com^
-@@||www.googleapis.com^
+@@||[www.googleapis.com^](http://www.googleapis.com^)
 @@||clientservices.googleapis.com^
 @@||googleusercontent.com^
 @@||gstatic.com^
-
 
 ! ---------------------------------------------------------
 ! Apple / iCloud / Mail Safety
@@ -89,10 +84,9 @@
 @@||imap.mail.me.com^
 @@||smtp.mail.me.com^
 
-
 ! ---------------------------------------------------------
 ! Yahoo Mail / Apple Yahoo Mail Safety
-! Fixes apple.imap.mail.yahoo.com
+! Fixes apple.imap.mail.yahoo.com without allowing all Yahoo.
 ! ---------------------------------------------------------
 @@||apple.imap.mail.yahoo.com^
 @@||imap.mail.yahoo.com^
@@ -101,8 +95,6 @@
 @@||login.yahoo.com^
 @@||api.login.yahoo.com^
 @@||guce.yahoo.com^
-@@||yahoo.com^
-
 
 ! ---------------------------------------------------------
 ! Gmail / Google Mail Safety
@@ -112,7 +104,6 @@
 @@||imap.gmail.com^
 @@||smtp.gmail.com^
 
-
 ! ---------------------------------------------------------
 ! Outlook / Hotmail Mail Safety
 ! ---------------------------------------------------------
@@ -121,7 +112,6 @@
 @@||live.com^
 @@||outlook.office365.com^
 @@||smtp.office365.com^
-
 
 ! ---------------------------------------------------------
 ! Sony / PlayStation Network Core
@@ -138,7 +128,6 @@
 @@||pscdn.co^
 @@||sonycoment.loris-e.llnwd.net^
 
-
 ! ---------------------------------------------------------
 ! Nintendo
 ! ---------------------------------------------------------
@@ -147,7 +136,6 @@
 @@||accounts.nintendo.com^
 @@||api.accounts.nintendo.com^
 @@||cdn.accounts.nintendo.com^
-
 
 ! ---------------------------------------------------------
 ! Steam
@@ -160,7 +148,6 @@
 @@||steam-chat.com^
 @@||steamgames.com^
 
-
 ! ---------------------------------------------------------
 ! Epic Games
 ! ---------------------------------------------------------
@@ -168,7 +155,6 @@
 @@||unrealengine.com^
 @@||ol.epicgames.com^
 @@||launcher-public-service-prod06.ol.epicgames.com^
-
 
 ! ---------------------------------------------------------
 ! Discord
@@ -178,7 +164,6 @@
 @@||discord.media^
 @@||discordapp.com^
 @@||discordapp.net^
-
 
 ! ---------------------------------------------------------
 ! NordVPN / Nord Account / SmartDNS
@@ -193,7 +178,6 @@
 @@||api.nordvpn.com^
 @@||downloads.nordcdn.com^
 
-
 ! ---------------------------------------------------------
 ! Real-Debrid / Debrid Services
 ! ---------------------------------------------------------
@@ -202,15 +186,13 @@
 @@||alldebrid.com^
 @@||premiumize.me^
 
-
 ! ---------------------------------------------------------
 ! Toontown Rewritten
 ! Game domain only. No Google ad networks allowed here.
 ! ---------------------------------------------------------
 @@||toontownrewritten.com^
-@@||www.toontownrewritten.com^
+@@||[www.toontownrewritten.com^](http://www.toontownrewritten.com^)
 @@||cdn.toontownrewritten.com^
-
 
 ! ---------------------------------------------------------
 ! Home Assistant / Nabu Casa
@@ -220,7 +202,6 @@
 @@||ui.nabu.casa^
 @@||cloud.nabucasa.com^
 @@||remote-sni-api.nabucasa.com^
-
 
 ! ---------------------------------------------------------
 ! ASUS Router / Firmware / AiMesh
@@ -233,7 +214,6 @@
 @@||nw-dlcdnet.asus.com^
 @@||oauth.asus.com^
 
-
 ! ---------------------------------------------------------
 ! Cloudflare Core / DNS / CDN
 ! ---------------------------------------------------------
@@ -242,13 +222,11 @@
 @@||one.one.one.one^
 @@||1.1.1.1^
 
-
 ! ---------------------------------------------------------
 ! DuckDNS / Dynamic DNS
 ! ---------------------------------------------------------
 @@||duckdns.org^
-@@||www.duckdns.org^
-
+@@||[www.duckdns.org^](http://www.duckdns.org^)
 
 ! ---------------------------------------------------------
 ! GitHub / Coding / Updates
@@ -259,7 +237,6 @@
 @@||objects.githubusercontent.com^
 @@||githubassets.com^
 
-
 ! ---------------------------------------------------------
 ! Docker / Container Updates
 ! ---------------------------------------------------------
@@ -268,7 +245,6 @@
 @@||registry-1.docker.io^
 @@||auth.docker.io^
 @@||production.cloudflare.docker.com^
-
 
 ! ---------------------------------------------------------
 ! Python / Package Managers
@@ -279,7 +255,6 @@
 @@||npmjs.com^
 @@||registry.npmjs.org^
 
-
 ! ---------------------------------------------------------
 ! Canada / Common Login Safety
 ! ---------------------------------------------------------
@@ -288,7 +263,6 @@
 @@||cra-arc.gc.ca^
 @@||signin.interac.ca^
 @@||interac.ca^
-
 
 ! ---------------------------------------------------------
 ! Banking / Payment Core Safety
@@ -299,7 +273,6 @@
 @@||stripe.com^
 @@||js.stripe.com^
 @@||checkout.stripe.com^
-
 
 ! ---------------------------------------------------------
 ! Amazon / Prime / Fire TV Core
@@ -312,7 +285,6 @@
 @@||primevideo.com^
 @@||aiv-cdn.net^
 
-
 ! ---------------------------------------------------------
 ! Netflix / Streaming Core
 ! ---------------------------------------------------------
@@ -321,7 +293,6 @@
 @@||nflximg.net^
 @@||nflxext.com^
 @@||nflxso.net^
-
 
 ! ---------------------------------------------------------
 ! YouTube Core
@@ -333,14 +304,12 @@
 @@||ytimg.com^
 @@||googlevideo.com^
 
-
 ! ---------------------------------------------------------
 ! Spotify
 ! ---------------------------------------------------------
 @@||spotify.com^
 @@||spotifycdn.com^
 @@||scdn.co^
-
 
 ! ---------------------------------------------------------
 ! Smart Home / IoT Common Core
@@ -357,7 +326,6 @@
 @@||ecobee.com^
 @@||ifttt.com^
 
-
 ! ---------------------------------------------------------
 ! Roborock / Xiaomi Vacuum
 ! ---------------------------------------------------------
@@ -366,7 +334,6 @@
 @@||miot-spec.org^
 @@||io.mi.com^
 @@||account.xiaomi.com^
-
 
 ! ---------------------------------------------------------
 ! Messaging / Calls
@@ -377,7 +344,6 @@
 @@||signal.org^
 @@||cdn.signal.org^
 
-
 ! ---------------------------------------------------------
 ! Optional Meta Login Safety
 ! Keep commented unless Facebook login breaks.
@@ -386,7 +352,6 @@
 ! @@||fbcdn.net^
 ! @@||connect.facebook.net^
 ! @@||graph.facebook.com^
-
 
 ! ---------------------------------------------------------
 ! Optional CDN Safety
@@ -397,7 +362,6 @@
 ! @@||edgekey.net^
 ! @@||edgesuite.net^
 ! @@||azureedge.net^
-
 
 ! =========================================================
 ! End of Allowlist
