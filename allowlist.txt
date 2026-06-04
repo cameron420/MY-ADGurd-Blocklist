@@ -1,56 +1,130 @@
 ! =========================================================
 ! AdGuard Home DNS Allowlist
 ! Purpose: Allow required authentication, platform, gaming,
-!          messaging, and VPN service domains while avoiding
-!          global advertising-network exceptions.
+!          messaging, mail, VPN, and smart service domains
+!          without globally allowing ad networks.
 ! =========================================================
 
+
 ! ---------------------------------------------------------
-! Microsoft / Windows / Xbox
+! Microsoft / Windows / Xbox Core
 ! ---------------------------------------------------------
 @@||aka.ms^
-@@||graph.microsoft.com^
+@@||microsoft.com^
+@@||live.com^
 @@||login.live.com^
 @@||login.microsoft.com^
 @@||login.microsoftonline.com^
 @@||device.login.microsoftonline.com^
-@@||token.microsoft.com^
-@@||xboxlive.com^
-@@||xboxservices.com^
-@@||xbox.com^
-@@||live.com^
-@@||microsoft.com^
 @@||microsoftonline.com^
+@@||token.microsoft.com^
+@@||graph.microsoft.com^
 @@||office.com^
 @@||office.net^
 @@||windows.net^
-@@||azureedge.net^
-@@||msftconnecttest.com^
 @@||msauth.net^
 @@||msauthimages.net^
 @@||microsoftapp.net^
+@@||msftconnecttest.com^
+@@||msftncsi.com^
+
+
+! ---------------------------------------------------------
+! Windows Push / Notifications
+! ---------------------------------------------------------
 @@||notify.windows.com^
 @@||push.notify.windows.com^
 @@||api.notify.windows.com^
 @@||wns.windows.com^
 
+
 ! ---------------------------------------------------------
-! Google / Android / Play Services
+! Xbox
 ! ---------------------------------------------------------
+@@||xbox.com^
+@@||xboxlive.com^
+@@||xboxservices.com^
+@@||user.auth.xboxlive.com^
+@@||xsts.auth.xboxlive.com^
+@@||title.auth.xboxlive.com^
+@@||xboxexperiencesprod.experimentation.xboxlive.com^
+
+
+! ---------------------------------------------------------
+! Google / Android / Play Services Core
+! ---------------------------------------------------------
+@@||google.com^
 @@||accounts.google.com^
 @@||play.google.com^
-@@||www.googleapis.com^
+@@||android.com^
 @@||android.clients.google.com^
 @@||clients3.google.com^
 @@||clients4.google.com^
 @@||mtalk.google.com^
 @@||gvt1.com^
+@@||gvt2.com^
 @@||googleapis.com^
-@@||googleusercontent.com^
+@@||www.googleapis.com^
 @@||clientservices.googleapis.com^
+@@||googleusercontent.com^
+@@||gstatic.com^
+
 
 ! ---------------------------------------------------------
-! Sony / PlayStation Network
+! Apple / iCloud / Mail Safety
+! ---------------------------------------------------------
+@@||apple.com^
+@@||icloud.com^
+@@||icloud-content.com^
+@@||cdn-apple.com^
+@@||mzstatic.com^
+@@||itunes.apple.com^
+@@||apps.apple.com^
+@@||appleid.apple.com^
+@@||idmsa.apple.com^
+@@||setup.icloud.com^
+@@||push.apple.com^
+@@||courier.push.apple.com^
+@@||gateway.icloud.com^
+@@||imap.mail.me.com^
+@@||smtp.mail.me.com^
+
+
+! ---------------------------------------------------------
+! Yahoo Mail / Apple Yahoo Mail Safety
+! Fixes apple.imap.mail.yahoo.com
+! ---------------------------------------------------------
+@@||apple.imap.mail.yahoo.com^
+@@||imap.mail.yahoo.com^
+@@||smtp.mail.yahoo.com^
+@@||mail.yahoo.com^
+@@||login.yahoo.com^
+@@||api.login.yahoo.com^
+@@||guce.yahoo.com^
+@@||yahoo.com^
+
+
+! ---------------------------------------------------------
+! Gmail / Google Mail Safety
+! ---------------------------------------------------------
+@@||mail.google.com^
+@@||gmail.com^
+@@||imap.gmail.com^
+@@||smtp.gmail.com^
+
+
+! ---------------------------------------------------------
+! Outlook / Hotmail Mail Safety
+! ---------------------------------------------------------
+@@||outlook.com^
+@@||hotmail.com^
+@@||live.com^
+@@||outlook.office365.com^
+@@||smtp.office365.com^
+
+
+! ---------------------------------------------------------
+! Sony / PlayStation Network Core
 ! ---------------------------------------------------------
 @@||playstation.com^
 @@||sony.com^
@@ -58,10 +132,43 @@
 @@||api.playstation.com^
 @@||auth.api.sonyentertainmentnetwork.com^
 @@||account.sonyentertainmentnetwork.com^
+@@||ca.account.sony.com^
 @@||scea.com^
-@@||akamaihd.net^
-@@||edgekey.net^
-@@||edgesuite.net^
+@@||playstation.net^
+@@||pscdn.co^
+@@||sonycoment.loris-e.llnwd.net^
+
+
+! ---------------------------------------------------------
+! Nintendo
+! ---------------------------------------------------------
+@@||nintendo.net^
+@@||nintendo.com^
+@@||accounts.nintendo.com^
+@@||api.accounts.nintendo.com^
+@@||cdn.accounts.nintendo.com^
+
+
+! ---------------------------------------------------------
+! Steam
+! ---------------------------------------------------------
+@@||steampowered.com^
+@@||steamcommunity.com^
+@@||steamstatic.com^
+@@||steamcontent.com^
+@@||steamserver.net^
+@@||steam-chat.com^
+@@||steamgames.com^
+
+
+! ---------------------------------------------------------
+! Epic Games
+! ---------------------------------------------------------
+@@||epicgames.com^
+@@||unrealengine.com^
+@@||ol.epicgames.com^
+@@||launcher-public-service-prod06.ol.epicgames.com^
+
 
 ! ---------------------------------------------------------
 ! Discord
@@ -72,22 +179,9 @@
 @@||discordapp.com^
 @@||discordapp.net^
 
-! ---------------------------------------------------------
-! Steam
-! ---------------------------------------------------------
-@@||steamcommunity.com^
-@@||steampowered.com^
-@@||steamstatic.com^
 
 ! ---------------------------------------------------------
-! Nintendo
-! ---------------------------------------------------------
-@@||nintendo.net^
-@@||nintendo.com^
-@@||accounts.nintendo.com^
-
-! ---------------------------------------------------------
-! NordVPN / SmartDNS
+! NordVPN / Nord Account / SmartDNS
 ! ---------------------------------------------------------
 @@||nordvpn.com^
 @@||nordcdn.com^
@@ -96,19 +190,215 @@
 @@||d.nordvpn.com^
 @@||cm.nordvpn.com^
 @@||debug.nordvpn.com^
+@@||api.nordvpn.com^
+@@||downloads.nordcdn.com^
+
 
 ! ---------------------------------------------------------
-! Facebook / Meta Core Services
-! Note: Authentication and platform domains only.
+! Real-Debrid / Debrid Services
 ! ---------------------------------------------------------
-@@||graph.facebook.com^
-@@||connect.facebook.net^
-@@||facebook.com^
-@@||fbcdn.net^
+@@||real-debrid.com^
+@@||api.real-debrid.com^
+@@||alldebrid.com^
+@@||premiumize.me^
+
 
 ! ---------------------------------------------------------
 ! Toontown Rewritten
-! Note: Game domain only. Advertising networks are intentionally
-!       excluded to prevent global ad allowlisting.
+! Game domain only. No Google ad networks allowed here.
 ! ---------------------------------------------------------
 @@||toontownrewritten.com^
+@@||www.toontownrewritten.com^
+@@||cdn.toontownrewritten.com^
+
+
+! ---------------------------------------------------------
+! Home Assistant / Nabu Casa
+! ---------------------------------------------------------
+@@||home-assistant.io^
+@@||nabucasa.com^
+@@||ui.nabu.casa^
+@@||cloud.nabucasa.com^
+@@||remote-sni-api.nabucasa.com^
+
+
+! ---------------------------------------------------------
+! ASUS Router / Firmware / AiMesh
+! ---------------------------------------------------------
+@@||asus.com^
+@@||asusrouter.com^
+@@||router.asus.com^
+@@||dlcdnets.asus.com^
+@@||dlcdnimgs.asus.com^
+@@||nw-dlcdnet.asus.com^
+@@||oauth.asus.com^
+
+
+! ---------------------------------------------------------
+! Cloudflare Core / DNS / CDN
+! ---------------------------------------------------------
+@@||cloudflare.com^
+@@||cloudflare-dns.com^
+@@||one.one.one.one^
+@@||1.1.1.1^
+
+
+! ---------------------------------------------------------
+! DuckDNS / Dynamic DNS
+! ---------------------------------------------------------
+@@||duckdns.org^
+@@||www.duckdns.org^
+
+
+! ---------------------------------------------------------
+! GitHub / Coding / Updates
+! ---------------------------------------------------------
+@@||github.com^
+@@||githubusercontent.com^
+@@||raw.githubusercontent.com^
+@@||objects.githubusercontent.com^
+@@||githubassets.com^
+
+
+! ---------------------------------------------------------
+! Docker / Container Updates
+! ---------------------------------------------------------
+@@||docker.com^
+@@||docker.io^
+@@||registry-1.docker.io^
+@@||auth.docker.io^
+@@||production.cloudflare.docker.com^
+
+
+! ---------------------------------------------------------
+! Python / Package Managers
+! ---------------------------------------------------------
+@@||pypi.org^
+@@||files.pythonhosted.org^
+@@||python.org^
+@@||npmjs.com^
+@@||registry.npmjs.org^
+
+
+! ---------------------------------------------------------
+! Canada / Common Login Safety
+! ---------------------------------------------------------
+@@||canada.ca^
+@@||gc.ca^
+@@||cra-arc.gc.ca^
+@@||signin.interac.ca^
+@@||interac.ca^
+
+
+! ---------------------------------------------------------
+! Banking / Payment Core Safety
+! Only core domains, not ad networks.
+! ---------------------------------------------------------
+@@||paypal.com^
+@@||paypalobjects.com^
+@@||stripe.com^
+@@||js.stripe.com^
+@@||checkout.stripe.com^
+
+
+! ---------------------------------------------------------
+! Amazon / Prime / Fire TV Core
+! ---------------------------------------------------------
+@@||amazon.ca^
+@@||amazon.com^
+@@||amazonaws.com^
+@@||ssl-images-amazon.com^
+@@||media-amazon.com^
+@@||primevideo.com^
+@@||aiv-cdn.net^
+
+
+! ---------------------------------------------------------
+! Netflix / Streaming Core
+! ---------------------------------------------------------
+@@||netflix.com^
+@@||nflxvideo.net^
+@@||nflximg.net^
+@@||nflxext.com^
+@@||nflxso.net^
+
+
+! ---------------------------------------------------------
+! YouTube Core
+! Does NOT allow Google ad services.
+! ---------------------------------------------------------
+@@||youtube.com^
+@@||youtu.be^
+@@||youtubei.googleapis.com^
+@@||ytimg.com^
+@@||googlevideo.com^
+
+
+! ---------------------------------------------------------
+! Spotify
+! ---------------------------------------------------------
+@@||spotify.com^
+@@||spotifycdn.com^
+@@||scdn.co^
+
+
+! ---------------------------------------------------------
+! Smart Home / IoT Common Core
+! ---------------------------------------------------------
+@@||tuyaus.com^
+@@||tuyaeu.com^
+@@||tuya.com^
+@@||smartthings.com^
+@@||samsungcloud.com^
+@@||samsungiotcloud.com^
+@@||ring.com^
+@@||arlo.com^
+@@||wyze.com^
+@@||ecobee.com^
+@@||ifttt.com^
+
+
+! ---------------------------------------------------------
+! Roborock / Xiaomi Vacuum
+! ---------------------------------------------------------
+@@||roborock.com^
+@@||roborock.com.cn^
+@@||miot-spec.org^
+@@||io.mi.com^
+@@||account.xiaomi.com^
+
+
+! ---------------------------------------------------------
+! Messaging / Calls
+! ---------------------------------------------------------
+@@||whatsapp.com^
+@@||whatsapp.net^
+@@||telegram.org^
+@@||signal.org^
+@@||cdn.signal.org^
+
+
+! ---------------------------------------------------------
+! Optional Meta Login Safety
+! Keep commented unless Facebook login breaks.
+! ---------------------------------------------------------
+! @@||facebook.com^
+! @@||fbcdn.net^
+! @@||connect.facebook.net^
+! @@||graph.facebook.com^
+
+
+! ---------------------------------------------------------
+! Optional CDN Safety
+! Keep commented unless PSN/Xbox/apps break.
+! These are huge shared CDN domains.
+! ---------------------------------------------------------
+! @@||akamaihd.net^
+! @@||edgekey.net^
+! @@||edgesuite.net^
+! @@||azureedge.net^
+
+
+! =========================================================
+! End of Allowlist
+! =========================================================
