@@ -1,8 +1,10 @@
 ! =========================================================
-! AdGuard Home DNS Allowlist
-! Purpose: Allow required authentication, platform, gaming,
-!          messaging, mail, VPN, and smart service domains
-!          without globally allowing ad networks.
+! IRONIKSV1 MEGA ADGUARD HOME DNS ALLOWLIST
+! Cleaned, deduplicated, and corrected for AdGuard syntax
+! Purpose: preserve authentication, updates, gaming, messaging,
+!          streaming, smart-home services, shopping, and safe
+!          Google sponsored-link compatibility without broadly
+!          allowing major ad/analytics networks.
 ! =========================================================
 
 ! ---------------------------------------------------------
@@ -21,6 +23,11 @@
 @@||office.com^
 @@||office.net^
 @@||windows.net^
+@@||windowsupdate.com^
+@@||update.microsoft.com^
+@@||download.windowsupdate.com^
+@@||delivery.mp.microsoft.com^
+@@||microsoftedge.com^
 @@||msauth.net^
 @@||msauthimages.net^
 @@||microsoftapp.net^
@@ -50,6 +57,7 @@
 ! Google / Android / Play Services Core
 ! ---------------------------------------------------------
 @@||google.com^
+@@||google.ca^
 @@||accounts.google.com^
 @@||play.google.com^
 @@||android.com^
@@ -60,10 +68,17 @@
 @@||gvt1.com^
 @@||gvt2.com^
 @@||googleapis.com^
-@@||[www.googleapis.com^](http://www.googleapis.com^)
 @@||clientservices.googleapis.com^
 @@||googleusercontent.com^
 @@||gstatic.com^
+
+! ---------------------------------------------------------
+! Google Sponsored Search Click Compatibility
+! ---------------------------------------------------------
+@@||googleadservices.com^
+@@||googleads.g.doubleclick.net^
+@@||ad.doubleclick.net^
+@@||clickserve.dartsearch.net^
 
 ! ---------------------------------------------------------
 ! Apple / iCloud / Mail Safety
@@ -86,7 +101,6 @@
 
 ! ---------------------------------------------------------
 ! Yahoo Mail / Apple Yahoo Mail Safety
-! Fixes apple.imap.mail.yahoo.com without allowing all Yahoo.
 ! ---------------------------------------------------------
 @@||apple.imap.mail.yahoo.com^
 @@||imap.mail.yahoo.com^
@@ -109,7 +123,6 @@
 ! ---------------------------------------------------------
 @@||outlook.com^
 @@||hotmail.com^
-@@||live.com^
 @@||outlook.office365.com^
 @@||smtp.office365.com^
 
@@ -188,10 +201,8 @@
 
 ! ---------------------------------------------------------
 ! Toontown Rewritten
-! Game domain only. No Google ad networks allowed here.
 ! ---------------------------------------------------------
 @@||toontownrewritten.com^
-@@||[www.toontownrewritten.com^](http://www.toontownrewritten.com^)
 @@||cdn.toontownrewritten.com^
 
 ! ---------------------------------------------------------
@@ -220,13 +231,11 @@
 @@||cloudflare.com^
 @@||cloudflare-dns.com^
 @@||one.one.one.one^
-@@||1.1.1.1^
 
 ! ---------------------------------------------------------
 ! DuckDNS / Dynamic DNS
 ! ---------------------------------------------------------
 @@||duckdns.org^
-@@||[www.duckdns.org^](http://www.duckdns.org^)
 
 ! ---------------------------------------------------------
 ! GitHub / Coding / Updates
@@ -256,7 +265,7 @@
 @@||registry.npmjs.org^
 
 ! ---------------------------------------------------------
-! Canada / Common Login Safety
+! Canada / Government / Interac
 ! ---------------------------------------------------------
 @@||canada.ca^
 @@||gc.ca^
@@ -266,13 +275,16 @@
 
 ! ---------------------------------------------------------
 ! Banking / Payment Core Safety
-! Only core domains, not ad networks.
 ! ---------------------------------------------------------
 @@||paypal.com^
 @@||paypalobjects.com^
 @@||stripe.com^
 @@||js.stripe.com^
 @@||checkout.stripe.com^
+@@||affirm.ca^
+@@||affirm.com^
+@@||klarna.com^
+@@||afterpay.com^
 
 ! ---------------------------------------------------------
 ! Amazon / Prime / Fire TV Core
@@ -286,6 +298,32 @@
 @@||aiv-cdn.net^
 
 ! ---------------------------------------------------------
+! Common Canadian Retailers — First-Party Domains
+! ---------------------------------------------------------
+@@||bestbuy.ca^
+@@||bestbuy.com^
+@@||canadiantire.ca^
+@@||canadiantire.com^
+@@||triangle.com^
+@@||ctfs.com^
+@@||walmart.ca^
+@@||walmart.com^
+@@||walmartimages.com^
+@@||homedepot.ca^
+@@||homedepot.com^
+@@||costco.ca^
+@@||costco.com^
+@@||rona.ca^
+@@||lowes.ca^
+@@||staples.ca^
+@@||thebay.com^
+@@||shoppersdrugmart.ca^
+@@||loblaws.ca^
+@@||realcanadiansuperstore.ca^
+@@||nofrills.ca^
+@@||pcoptimum.ca^
+
+! ---------------------------------------------------------
 ! Netflix / Streaming Core
 ! ---------------------------------------------------------
 @@||netflix.com^
@@ -296,7 +334,6 @@
 
 ! ---------------------------------------------------------
 ! YouTube Core
-! Does NOT allow Google ad services.
 ! ---------------------------------------------------------
 @@||youtube.com^
 @@||youtu.be^
@@ -346,7 +383,6 @@
 
 ! ---------------------------------------------------------
 ! Optional Meta Login Safety
-! Keep commented unless Facebook login breaks.
 ! ---------------------------------------------------------
 ! @@||facebook.com^
 ! @@||fbcdn.net^
@@ -354,14 +390,20 @@
 ! @@||graph.facebook.com^
 
 ! ---------------------------------------------------------
-! Optional CDN Safety
-! Keep commented unless PSN/Xbox/apps break.
-! These are huge shared CDN domains.
+! Optional Huge Shared CDNs
 ! ---------------------------------------------------------
 ! @@||akamaihd.net^
 ! @@||edgekey.net^
 ! @@||edgesuite.net^
 ! @@||azureedge.net^
+
+! ---------------------------------------------------------
+! DO NOT broadly allow these unless intentionally wanted
+! ---------------------------------------------------------
+! @@||doubleclick.net^
+! @@||googlesyndication.com^
+! @@||google-analytics.com^
+! @@||amazon-adsystem.com^
 
 ! =========================================================
 ! End of Allowlist
