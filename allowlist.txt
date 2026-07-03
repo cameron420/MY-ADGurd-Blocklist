@@ -296,7 +296,7 @@
 @@||media-amazon.com^
 @@||primevideo.com^
 @@||aiv-cdn.net^
-
+@@||amazon-adsystem.com^
 ! ---------------------------------------------------------
 ! Common Canadian Retailers — First-Party Domains
 ! ---------------------------------------------------------
