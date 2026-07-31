@@ -1,4 +1,16 @@
 ! =========================================================
+! IRONIKSV1 ULTIMATE ADGUARD HOME DNS ALLOWLIST
+! Production Edition
+! Safe for public GitHub (contains no personal information)
+! =========================================================
+
+! This file starts from the user's existing curated allowlist and
+! appends additional first-party domains commonly required for
+! Alexa, Google Home/Nest, Home Assistant, Matter, Thread,
+! Chromecast, ESPHome and popular smart-home ecosystems.
+
+! ================= Existing allowlist =================
+! =========================================================
 ! IRONIKSV1 MEGA ADGUARD HOME DNS ALLOWLIST
 ! Cleaned, deduplicated, and corrected for AdGuard syntax
 ! Purpose: preserve authentication, updates, gaming, messaging,
@@ -407,4 +419,80 @@
 
 ! =========================================================
 ! End of Allowlist
+! =========================================================
+
+! =========================================================
+! ADDITIONS - Amazon Alexa / Echo / Smart Home
+! =========================================================
+@@||amazonalexa.com^
+@@||alexa.amazon.com^
+@@||api.amazonalexa.com^
+@@||alexa.na.gateway.devices.a2z.com^
+@@||*.prod.service.minerva.devices.a2z.com^
+@@||dp-gw-na.amazon.com^
+@@||arcus-uswest.amazon.com^
+@@||avs-alexa-13-na.amazon.com^
+@@||na-api-alexa.amazon.ca^
+@@||na-bob-dispatch-prod-alexa.amazon.ca^
+@@||alexa-comms-mobile-service.amazon.com^
+@@||msh.amazon.com^
+@@||dss-na.amazon.com^
+@@||ffs-provisioner-config.amazon-dss.com^
+@@||acsechocaptiveportal.com^
+@@||mmechocaptiveportal.com^
+@@||todo-ta-g7g.amazon.com^
+@@||ntp-g7g.amazon.com^
+
+! =========================================================
+! Google Home / Nest / Cast
+! =========================================================
+@@||cast.google.com^
+@@||googlehomefoyer-pa.googleapis.com^
+@@||googleapis.com^
+@@||clients3.google.com^
+@@||clients4.google.com^
+@@||connectivitycheck.gstatic.com^
+@@||connectivitycheck.android.com^
+@@||googlevideo.com^
+@@||mtalk.google.com^
+
+! =========================================================
+! Home Assistant / ESPHome / Matter
+! =========================================================
+@@||esphome.io^
+@@||matter.dev^
+@@||home-assistant.io^
+@@||nabucasa.com^
+@@||ui.nabu.casa^
+@@||cloud.nabucasa.com^
+
+! =========================================================
+! Smart Home Vendors
+! =========================================================
+@@||philips-hue.com^
+@@||meethue.com^
+@@||discovery.meethue.com^
+@@||tp-link.com^
+@@||tplinkcloud.com^
+@@||tplinknbu.com^
+@@||tapo.com^
+@@||kasasmart.com^
+@@||govee.com^
+@@||switch-bot.com^
+@@||aqara.com^
+@@||meross.com^
+@@||shelly.cloud^
+@@||nanoleaf.me^
+@@||wled.me^
+
+! =========================================================
+! Media Devices
+! =========================================================
+@@||sonos.com^
+@@||bose.com^
+@@||roku.com^
+@@||rokucloudservices.com^
+
+! =========================================================
+! END
 ! =========================================================
